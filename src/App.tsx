@@ -8,13 +8,15 @@ import './App.css';
 
 export const App = (): ReactElement  =>{
   return (
-    <Switch>
-      <Route path='/' exact>
-        <HomeScreen />
-      </Route>
-      <Route path='/scan' exact>
-        <ScanScreen />
-      </Route>
-    </Switch>
+    <main className='main__container'>
+      <Switch>
+        <Route path='/' exact>
+          <HomeScreen />
+        </Route>
+        <Route path='/scan' exact>
+          <ScanScreen />
+        </Route>
+      </Switch>
+    </main>
   )
 }

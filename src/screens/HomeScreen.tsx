@@ -7,7 +7,7 @@ import { PlusIcon } from "../components/PlusIcon";
 
 export const HomeScreen = (): ReactElement => {
   return (
-   <main className='main__container'>
+    <>
      <header className='main__header'>
        <Link className='main__link' to='/'>
          <h1>Wallet</h1>
@@ -20,6 +20,6 @@ export const HomeScreen = (): ReactElement => {
        <ul>
        </ul>
      </section>
-   </main>
+    </>
   )
 }
