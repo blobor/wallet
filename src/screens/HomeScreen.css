@@ -1,0 +1,33 @@
+:root {
+  --backgroud: #15202B;
+  --text-color: #fff
+}
+
+.main_container {
+  background: var(--backgroud);
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.main__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.main__link {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.main__scan-link {
+  background: var(--text-color);
+  border-radius: 100%;
+  color: var(--backgroud);
+  text-align: center;
+  line-height: 2rem;
+  font-size: 2rem;
+  width: 2rem;
+}
