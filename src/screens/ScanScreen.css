@@ -1,0 +1,10 @@
+.scanner__container {
+  display: contents;
+  position: relative;
+}
+
+.scanner__video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
